@@ -1,0 +1,14 @@
+.simple-button {
+    background-color: #76ABAE;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.simple-button:hover {
+    color: black;
+    background-color: white;
+    transition: background-color 0.3s ease-in-out; /* Menambahkan ease untuk transisi yang halus */
+}

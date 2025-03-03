@@ -1,0 +1,17 @@
+[
+    {
+        "img": "../assets/images/placeholder.jpg",
+        "title": "Judul Foto 1",
+        "description": "Deskripsi Foto 1"
+    },
+    {
+        "img": "../assets/images/placeholder.jpg",
+        "title": "Judul Foto 2",
+        "description": "Deskripsi Foto 2"
+    },
+    {
+        "img": "../assets/images/placeholder.jpg",
+        "title": "Judul Foto 3",
+        "description": "Deskripsi Foto 3"
+    }
+]

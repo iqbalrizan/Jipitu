@@ -1,0 +1,80 @@
+.alasan {
+    min-height: 100vh;
+    background-image: url("../../assets/images/4873152.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+.section-title {
+    font-size: 32px !important; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    color:#76ABAE ;   
+    /* margin-bottom: 20px; Spasi bawah */
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  /* Garis bawah elegan */
+  .section-title::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: #FFD700; /* Warna emas */
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+.alasan h1 {
+    color: #76ABAE;
+    font-size: 24px;
+    font-weight: 700;
+}
+.alasan-wrapper {
+    display: flex;
+    gap: 20px;
+}
+.alasan-left, .alasan-right {
+    flex: 1;
+}
+
+.alasan-left .alasan-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.alasan-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alasan-right img {
+    height: 400px;
+    width: 400px;
+    border-radius: 120px;
+}
+
+.alasan-left .alasan-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 5px 6px 1px rgba(107, 136, 171, 0.75);
+-webkit-box-shadow: 0px 5px 6px 1px rgba(72, 134, 182, 0.75);
+-moz-box-shadow: 0px 5px 6px 1px rgba(87, 102, 183, 0.75);
+    padding: 10px;
+    background-color: white;
+}
+.alasan-left .alasan-box h2 {
+    color: #76ABAE;
+    font-weight: 700;
+}
+
+

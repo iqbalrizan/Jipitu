@@ -1,0 +1,38 @@
+.template {
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #002352;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.template-intro h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.template-intro p {
+    text-align: start;
+}
+
+.list-template {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.template-box {
+    border: 2px solid rgb(255, 255, 255) ;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.template-box h1 {
+    color: white;
+}
