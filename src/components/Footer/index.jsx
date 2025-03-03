@@ -10,15 +10,6 @@ const Footer = () => {
                     <p>Kami adalah agensi kreatif yang fokus pada pembuatan website yang menarik dan fungsional.</p>
                 </div>
                 <div className="footer-column">
-                    <h4>Layanan</h4>
-                    <ul>
-                        <li>Pembuatan Website</li>
-                        <li>Desain UI/UX</li>
-                        <li>Pemeliharaan Website</li>
-                        <li>Optimasi SEO</li>
-                    </ul>
-                </div>
-                <div className="footer-column">
                     <h4>Hubungi Kami</h4>
                     <p>Alamat: Jalan Contoh No. 123</p>
                     <p>Email: info@contoh.com</p>
