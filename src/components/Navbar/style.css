@@ -47,5 +47,8 @@ nav {
     .navbar-menu {
       display: none !important;
     }
+    .navbar-mobile {
+        z-index: 999;
+    }
   }
   

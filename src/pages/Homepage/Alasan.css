@@ -1,9 +1,8 @@
 .alasan {
-    min-height: 100vh;
     background-image: url("../../assets/images/4873152.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 40px;
+    padding: 70px;
 }
 .section-title {
     font-size: 32px !important; 
@@ -76,5 +75,20 @@
     color: #76ABAE;
     font-weight: 700;
 }
+
+@media screen and (max-width:700px) {
+
+   .alasan {
+    padding: 50px 25px !important;
+   }
+   .alasan-wrapper {
+    flex-direction: column-reverse;
+    gap: 20px;
+   }
+   .alasan-left .alasan-box-container {
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr) !important;
+   }
+  }
 
 

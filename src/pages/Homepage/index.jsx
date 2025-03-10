@@ -24,7 +24,7 @@ const Home = () => {
     <>
       <HeroQuarterCircle />
       <Alasan />
-      {/* <Template /> */}
+      <Template />
       <Faq />
       {/* <FlyingButton /> */}
       <Footer />

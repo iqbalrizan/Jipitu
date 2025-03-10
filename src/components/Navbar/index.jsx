@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="absolute top-16 right-0 w-48 bg-gray-900 text-white p-4 rounded-lg shadow-lg">
+          <div className="absolute top-16 right-0 w-48 bg-gray-900 text-white p-4 rounded-lg shadow-lg navbar-mobile">
             <ul className="flex flex-col space-y-3">
               <li>
                 <a href="/" className="block px-4 py-2 rounded hover:bg-gray-700 transition">Home</a>
@@ -48,7 +48,7 @@ const Navbar = () => {
               <a href="#faq" className="text-white">FAQ</a>
             </li>
             <li>
-              <a href="/" className="button-1">Contact Us</a>
+              <a href="/" className="button-1">CONTACT US</a>
             </li>
           </ul>
         </div>
