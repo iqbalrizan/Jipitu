@@ -50,5 +50,9 @@ nav {
     .navbar-mobile {
         z-index: 999;
     }
+    .navbar-logo a img {
+        height: 80px !important;
+        width: 80px !important;
+    }
   }
   
