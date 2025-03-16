@@ -6,7 +6,7 @@ import Button from '../../Button';
 
 const HeroQuarterCircle = () => {
 
-  const words = ["Dapatkan Website Impian Anda Hari Ini"]
+  const words = ["Solusi Jitu untuk Website Impian Anda"]
 
   useEffect(() => {
     AOS.init({
@@ -31,7 +31,7 @@ const HeroQuarterCircle = () => {
             wrapperClassName: "typewritter"
           }} />
         </div>
-        <p className='mb-8 mt-20 typewritter-text' >Jangan biarkan kesempatan lewat begitu saja. Hubungi kami sekarang untuk konsultasi gratis dan mulailah perjalanan menuju kehadiran digital yang mengesankan!</p>
+        <p className='mb-8 mt-20 typewritter-text' >Jangan lewatkan kesempatan emas! Hubungi kami sekarang untuk konsultasi gratis dan wujudkan kehadiran digital yang luar biasa!</p>
         <div className="button-container">
           <a className='button-1' href="/">View Project</a>
           <a className='button-2' href="/">Contact Us</a>

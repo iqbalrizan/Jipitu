@@ -47,6 +47,7 @@ align-items: center;
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
+    text-align: start;
 }
 
 .faq-item .faq-content.show {

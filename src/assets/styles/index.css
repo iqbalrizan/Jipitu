@@ -23,4 +23,5 @@
   padding: 0;
   text-align: center;
     background-color: #002352;
-}
+    background: linear-gradient(135deg, #002352, #006994, #00a6fb);
+  }

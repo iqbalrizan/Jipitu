@@ -3,7 +3,6 @@
     display: flex;
     gap: 20px;
     flex-direction: column;
-    background-image: url("../../assets/images/bg-blue-new.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -35,6 +34,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: start;
+    justify-content: space-between;
 }
 .template-box h3 {
     color: rgb(0, 0, 0);

@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import "./Alasan.css"
 import quality from "../../assets/images/quality.png"
+import tech from "../../assets/images/tech.png"
+import profesional from "../../assets/images/profesional.png"
+import price from "../../assets/images/price.png"
 import alasan from "../../assets/images/alasan.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -25,23 +28,23 @@ function Alasan() {
             <div className="alasan-box-container">
             <div className="alasan-box" data-aos="flip-up">
                 <img src={quality} alt="" />
-                <h2>Quality</h2>
-                <p>Kami menawarkan kualitas layanan yang tinggi dan solusi yang inovatif yang dapat membawa bisnis Anda ke level berikutnya.</p>
+                <h2>Best Quality</h2>
+                <p>Kami menghadirkan layanan dengan standar kualitas tinggi dan solusi inovatif untuk membawa bisnis Anda ke level berikutnya.</p>
             </div>
             <div className="alasan-box" data-aos="flip-up">
-                <img src={quality} alt="" />
-                <h2>Quality</h2>
-                <p>Kami menawarkan kualitas layanan yang tinggi dan solusi yang inovatif yang dapat membawa bisnis Anda ke level berikutnya.</p>
+                <img src={tech} alt="" />
+                <h2>Latest Technology</h2>
+                <p>Kami selalu mengikuti perkembangan terbaru dalam dunia digital agar website Anda selalu unggul dan relevan.</p>
             </div>
             <div className="alasan-box" data-aos="flip-up">
-                <img src={quality} alt="" />
-                <h2>Quality</h2>
-                <p>Kami menawarkan kualitas layanan yang tinggi dan solusi yang inovatif yang dapat membawa bisnis Anda ke level berikutnya.</p>
+                <img src={profesional} alt="" />
+                <h2>Professional Support</h2>
+                <p>Tim ahli kami siap membantu Anda kapan saja dengan layanan yang responsif dan profesional.</p>
             </div>
             <div className="alasan-box" data-aos="flip-up">
-                <img src={quality} alt="" />
-                <h2>Quality</h2>
-                <p>Kami menawarkan kualitas layanan yang tinggi dan solusi yang inovatif yang dapat membawa bisnis Anda ke level berikutnya.</p>
+                <img src={price} alt="" />
+                <h2>Competitive Pricing</h2>
+                <p>Dapatkan website berkualitas tinggi dengan harga yang bersaing, tanpa kompromi dalam hasil akhir!</p>
             </div>
             </div>
         </div>

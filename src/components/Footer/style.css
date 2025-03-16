@@ -5,13 +5,18 @@
     text-align: start;
 }
 
+.footer img {
+    height: 100px;
+    width: 100px;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 20px;
+    gap: 70px;
 }
 
 .footer-column {

@@ -1,9 +1,7 @@
 section {
   display: flex;
-  min-height: calc(100vh - 70px);
   padding-right: 80px;
-  padding-bottom: 40px;
-  background-image: url("../../../assets/images/bg-blue-new.jpg");
+  padding-bottom:70px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -46,7 +44,7 @@ section {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: #e0e0e0;
-  text-align: left;
+  text-align: center;
 }
 
 @media screen and (max-width:700px) {
@@ -68,9 +66,7 @@ section {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 25.5);
     color: white;
   }
-  section {
-    height: 100vh;
-  }
+ 
   .typewritter {
     font-size: 34px !important;
   }
