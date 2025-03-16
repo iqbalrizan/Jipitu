@@ -19,6 +19,11 @@
     gap: 70px;
 }
 
+.footer .footer-container .logo-section {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-column {
     flex: 1;
     min-width: 250px;
