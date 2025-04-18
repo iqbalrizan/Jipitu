@@ -17,9 +17,9 @@ const Footer = () => {
 
                 <div className="footer-column">
                     <h4>Hubungi Kami</h4>
-                    <p>Alamat: Jalan Contoh No. 123</p>
-                    <p>Email: info@contoh.com</p>
-                    <p>Telepon: (123) 456-7890</p>
+                    <p>Email: <a href="mailto:jipituwebsitepadang@gmail.com">jipituwebsitepadang@gmail.com</a> </p>
+                    <p>Whatsapp: <a href="https://wa.me/6281268110311">081268110311</a></p>
+                    <p>Telepon: <a href="tel:6281268110311">081268110311</a></p>
                 </div>
             </div>
 

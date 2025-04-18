@@ -33,8 +33,8 @@ const HeroQuarterCircle = () => {
         </div>
         <p className='mb-8 mt-20 typewritter-text' >Jangan lewatkan kesempatan emas! Hubungi kami sekarang untuk konsultasi gratis dan wujudkan kehadiran digital yang luar biasa!</p>
         <div className="button-container">
-          <a className='button-1' href="/">View Project</a>
-          <a className='button-2' href="/">Contact Us</a>
+          <a className='button-1' href="#our-template">View Project</a>
+          <a className='button-2' href="https://wa.me/6281268110311">Contact Us</a>
         </div>
        
       </div>

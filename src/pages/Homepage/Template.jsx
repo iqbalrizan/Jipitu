@@ -37,7 +37,7 @@ function Template() {
     <li>Menyetujui proposal & melakukan pembayaran</li>
                 </ul>
                 
-                <button className='contact-button'>Contact Us</button>
+                <a href='https://wa.me/6281268110311' className='contact-button'>Contact Us</a>
             </div>
             <div className="template-box" data-aos="zoom-in">
     <h3 className='template-heading'>E-commerce Development</h3>
@@ -50,7 +50,7 @@ function Template() {
         <li>Menyetujui proposal & melakukan pembayaran</li>
     </ul>
     
-    <button className='contact-button'>Contact Us</button>
+    <a href='https://wa.me/6281268110311' className='contact-button'>Contact Us</a>
 </div>
 
 <div className="template-box" data-aos="zoom-in">
@@ -63,7 +63,7 @@ function Template() {
         <li>Mengembangkan aplikasi sesuai dengan kebutuhan bisnis</li>
         <li>Menyetujui proposal & melakukan pembayaran</li>
     </ul>
-    <button className='contact-button'>Contact Us</button>
+    <a href='https://wa.me/6281268110311' className='contact-button'>Contact Us</a>
 </div>
 
            

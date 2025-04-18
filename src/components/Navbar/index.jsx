@@ -48,7 +48,7 @@ const Navbar = () => {
               <a href="#faq" className="text-white">FAQ</a>
             </li>
             <li>
-              <a href="/" className="button-1">CONTACT US</a>
+              <a href="https://wa.me/6281268110311" className="button-1">CONTACT US</a>
             </li>
           </ul>
         </div>
